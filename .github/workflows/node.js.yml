@@ -4,7 +4,6 @@ on: [push]
 
 jobs:
       - uses: actions/upload-artifact@master
-    <span class="x x-first x-last">needs: build</span>
           name: webpack artifacts
           path: public/
 
